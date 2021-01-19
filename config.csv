@@ -1,0 +1,3 @@
+item,ins_existance,ins_msg,ins_options,value_msg,value_re,value_type,stats,num_keyboard
+food,1,Какой тип еды вы кушали?,"home, fast_food, cafe, in_guests, restaurant, delivery, canteen, snacks, other","Что вы кушали? (в формате рис/котлета-говядина/салат-помидор,огурец) (в качестве игредиентов важны только фрукты, овощи и тип мяса)",^.+$,object,0,0
+drinks,1,Какой напиток вы пили?,"water, tea, coffee, coke, milk, juice, alc_beer, alc_cocktail, other",Сколько стаканов/кружек/бокалов/стопок вы выпили?,^[0-9]+\.?[0-9]*$,float64,1,1
